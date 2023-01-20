@@ -1,0 +1,24 @@
+.c-grid-cell:hover {
+  background-color: rgba(121, 169, 211, 0.911);
+  transform: scale(1.05);
+  transition: transform 0.75s;
+  cursor: pointer;
+  -webkit-box-shadow: 7px 7px 10px -4px rgba(119, 119, 119, 0.43);
+  box-shadow: 7px 7px 10px -4px rgba(119, 119, 119, 0.43);
+}
+
+.c-bg-lightblue {
+  background-color: rgba(149, 192, 229, 0.74);
+}
+
+.c-text-lightblue {
+  color: rgba(149, 192, 229, 0.74);
+}
+
+.c-hover-darkerblue:hover {
+  color: rgba(121, 169, 211, 0.911);
+}
+
+.cell-text {
+  font-size: 50px;
+}

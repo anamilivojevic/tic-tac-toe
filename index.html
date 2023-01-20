@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width: 150px; max-width=device-width: 150px; max-height: 150px; max-width, initial-scal 150px; max-height:e=1"
+    />
+    <title>Tic Tac Toe with JS</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <header>
+      <h1 class="text-center mt-4">Tic Tac Toe</h1>
+    </header>
+
+    <main class="py-3 py-lg-4">
+      <section class="current-player-buttons">
+        <div class="container mt-5 mb-5 players text-center">
+          <button class="btn btn-dark" id="btn-player-1">Player 1</button>
+          <button class="btn btn-dark disabled" id="btn-player-2">
+            Player 2
+          </button>
+        </div>
+      </section>
+      <div class="game-grid container">
+        <div class="row mb-3 justify-content-center gap-3">
+          <div
+            onclick="textAppears('c1')"
+            class="c-bg-lightblue c-grid-cell c-cell-1 col-3 rounded d-flex justify-content-center align-items-center"
+            style="width: 150px; height: 150px"
+          >
+            <div id="c1"></div>
+          </div>
+
+          <div
+            onclick="textAppears('c2')"
+            class="c-bg-lightblue c-grid-cell c-cell-2 col-3 rounded d-flex justify-content-center align-items-center"
+            style="width: 150px; height: 150px"
+          >
+            <div id="c2"></div>
+          </div>
+
+          <div
+            onclick="textAppears('c3')"
+            class="c-bg-lightblue c-grid-cell c-cell-3 col-3 rounded d-flex justify-content-center align-items-center"
+            style="width: 150px; height: 150px"
+          >
+            <div id="c3"></div>
+          </div>
+        </div>
+        <div class="row mb-3 justify-content-center gap-3">
+          <div
+            onclick="textAppears('c4')"
+            class="c-bg-lightblue c-grid-cell c-cell-4 col-3 rounded d-flex justify-content-center align-items-center"
+            style="width: 150px; height: 150px"
+          >
+            <div id="c4"></div>
+          </div>
+
+          <div
+            onclick="textAppears('c5')"
+            class="c-bg-lightblue c-grid-cell c-cell-5 col-3 rounded d-flex justify-content-center align-items-center"
+            style="width: 150px; height: 150px"
+          >
+            <div id="c5"></div>
+          </div>
+
+          <div
+            onclick="textAppears('c6')"
+            class="c-bg-lightblue c-grid-cell c-cell-6 col-3 rounded d-flex justify-content-center align-items-center"
+            style="width: 150px; height: 150px"
+          >
+            <div id="c6"></div>
+          </div>
+        </div>
+        <div class="row mb-3 justify-content-center gap-3">
+          <div
+            onclick="textAppears('c7')"
+            class="c-bg-lightblue c-grid-cell c-cell-7 col-3 rounded d-flex justify-content-center align-items-center"
+            style="width: 150px; height: 150px"
+          >
+            <div id="c7"></div>
+          </div>
+
+          <div
+            onclick="textAppears('c8')"
+            class="c-bg-lightblue c-grid-cell c-cell-8 col-3 rounded d-flex justify-content-center align-items-center"
+            style="width: 150px; height: 150px"
+          >
+            <div id="c8"></div>
+          </div>
+
+          <div
+            onclick="textAppears('c9')"
+            class="c-bg-lightblue c-grid-cell c-cell-9 col-3 rounded d-flex justify-content-center align-items-center"
+            style="width: 150px; height: 150px"
+          >
+            <div id="c9"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="mt-auto">
+      <div
+        class="container-fluid bg-dark bg-opacity-75 py-3 py-lg-4 text-center text-light"
+      >
+        <p class="mb-0">Made by Ana Milivojevic</p>
+        <a
+          class="c-text-lightblue c-hover-darkerblue"
+          href="https://anamilivojevic.com"
+          >https://anamilivojevic.com</a
+        >
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script/tic-tac-toe.js"></script>
+  </body>
+</html>
